@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="starlings_8cpp" kind="file"><name>starlings.cpp</name>
+    <member refid="starlings_8cpp_1a0f7dd94751a716388139167198af6f99" kind="variable"><name>xRotated</name></member>
+    <member refid="starlings_8cpp_1af83a51abeb599a6dd5aa9087ebc44b2a" kind="variable"><name>yRotated</name></member>
+    <member refid="starlings_8cpp_1ac5e754bd7fabf281ebfdb96912f69b1f" kind="variable"><name>zRotated</name></member>
+    <member refid="starlings_8cpp_1aa6ea9b07932df851a61fa72bd01761fe" kind="variable"><name>size</name></member>
+    <member refid="starlings_8cpp_1ab9391faa6d1c5e72b1895547e4ef6a00" kind="variable"><name>limit</name></member>
+    <member refid="starlings_8cpp_1a7fb0384d64964bdc05225adfa0594e89" kind="variable"><name>position</name></member>
+    <member refid="starlings_8cpp_1acd11b4fca2cf4313de76e94fcd3439bd" kind="variable"><name>vel1</name></member>
+    <member refid="starlings_8cpp_1afa817b638ca7fbdae24eb2d32789a26a" kind="variable"><name>vel2</name></member>
+    <member refid="starlings_8cpp_1a86b5e9d70d2601237f63e6f89c98eba7" kind="variable"><name>vel3</name></member>
+    <member refid="starlings_8cpp_1a2600896dfdf08a685fe4272f14c10b52" kind="variable"><name>axis_size</name></member>
+    <member refid="starlings_8cpp_1ac484ca7bc54173e1bb895fa813b8a8dd" kind="variable"><name>rel_dist</name></member>
+    <member refid="starlings_8cpp_1af4e7f730dd365cf7a28b46888a917ca2" kind="variable"><name>sumx</name></member>
+    <member refid="starlings_8cpp_1a14ad0bac674463aa74565ee55fa82268" kind="variable"><name>sumy</name></member>
+    <member refid="starlings_8cpp_1a548210e3a99d838187e42369af14aeb0" kind="variable"><name>sumz</name></member>
+    <member refid="starlings_8cpp_1a32e90c8902fd0c39d8387e9fe45224cd" kind="variable"><name>sumv1</name></member>
+    <member refid="starlings_8cpp_1a01338e4d61070945e4dfa51df9f894b5" kind="variable"><name>sumv2</name></member>
+    <member refid="starlings_8cpp_1a6ed82249badbcab82929c0b2210e546f" kind="variable"><name>sumv3</name></member>
+    <member refid="starlings_8cpp_1a0ae25983db419f389b475cf8918b0676" kind="variable"><name>suma1</name></member>
+    <member refid="starlings_8cpp_1a44b28585653a41346fc759066c703298" kind="variable"><name>suma2</name></member>
+    <member refid="starlings_8cpp_1a31cf315160e72e8cdfd612f241f3661d" kind="variable"><name>suma3</name></member>
+    <member refid="starlings_8cpp_1ad0952eff2667e5af2b307ba4f6d0b06b" kind="variable"><name>force</name></member>
+    <member refid="starlings_8cpp_1a28342d60f96d731271cfa20c110be44e" kind="variable"><name>rad</name></member>
+    <member refid="starlings_8cpp_1aaa18bd78bd58de6bfe145d49f9715c01" kind="variable"><name>vr</name></member>
+    <member refid="starlings_8cpp_1a2d107b3b2dcebab8a10c9d39894f6b2a" kind="variable"><name>energy</name></member>
+    <member refid="starlings_8cpp_1a76f11d9a0a47b94f72c2d0e77fb32240" kind="variable"><name>n</name></member>
+    <member refid="starlings_8cpp_1a559f65839b6a67e60dd46669b5712ab6" kind="function"><name>wait</name></member>
+    <member refid="starlings_8cpp_1a7c09c503a370ef201bb27853f1cd3142" kind="function"><name>print</name></member>
+    <member refid="starlings_8cpp_1ad0d8c241f9f8e69477520d2487878ff5" kind="function"><name>add_bird</name></member>
+    <member refid="starlings_8cpp_1a61a8f1d45aa146d60f7f7b8113ea2bba" kind="function"><name>boundary</name></member>
+    <member refid="starlings_8cpp_1a0a30784b0a7c4911d264fccd44ae45dc" kind="function"><name>attraction</name></member>
+    <member refid="starlings_8cpp_1aa59bf8641e194c92afa83a43eafd8215" kind="function"><name>repulsion</name></member>
+    <member refid="starlings_8cpp_1abde5d9228861bff9b180983d32efa7f4" kind="function"><name>update_vel</name></member>
+    <member refid="starlings_8cpp_1abc2f6086b45e84f90853d92e86926836" kind="function"><name>update_pos</name></member>
+    <member refid="starlings_8cpp_1ac5c54df7ed3b930268c8d7752c101725" kind="function"><name>update</name></member>
+    <member refid="starlings_8cpp_1afa20485a295d6e55ffe9d5c496d1cfa1" kind="function"><name>idle_fn</name></member>
+    <member refid="starlings_8cpp_1a2858154e2009b0e6e616f313177762bc" kind="function"><name>init</name></member>
+    <member refid="starlings_8cpp_1a4ea013001a5fb47853d0fab8f8de35cd" kind="function"><name>display</name></member>
+    <member refid="starlings_8cpp_1afd48a038baa9083e9ec15859715198ee" kind="function"><name>animation</name></member>
+    <member refid="starlings_8cpp_1a9c6a000bb585e5a23a3d829dae9d1358" kind="function"><name>reshape</name></member>
+    <member refid="starlings_8cpp_1a1564b834688cdbb8c5b7614900ce833e" kind="function"><name>Special_Keys</name></member>
+    <member refid="starlings_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="md_src_README" kind="page"><name>md_src_README</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="md_src_README" kind="page">
+    <compoundname>md_src_README</compoundname>
+    <title>README</title>
+    <detaileddescription>
+<para>g++ -std=c++11 -o a a.cpp -lGL -lGLU -lglut g++ -std=c++11 -o b b.cpp -lGL -lGLU -lglut g++ -std=c++11 -o cube cube.cpp -lGL -lGLU -lglut </para>    </detaileddescription>
+  </compounddef>
+</doxygen>

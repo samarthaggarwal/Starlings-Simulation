@@ -1,0 +1,243 @@
+.TH "src/starlings.cpp" 3 "Thu May 10 2018" "Starling_Simulation" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+src/starlings.cpp \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <bits/stdc++\&.h>\fP
+.br
+\fC#include <GL/glut\&.h>\fP
+.br
+\fC#include <stdio\&.h>\fP
+.br
+\fC#include <stdlib\&.h>\fP
+.br
+\fC#include <time\&.h>\fP
+.br
+\fC#include <cstring>\fP
+.br
+\fC#include <string>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBwait\fP (float seconds)"
+.br
+.ti -1c
+.RI "void \fBprint\fP (int x, int y, int z, char *string)"
+.br
+.ti -1c
+.RI "void \fBadd_bird\fP ()"
+.br
+.ti -1c
+.RI "void \fBboundary\fP ()"
+.br
+.ti -1c
+.RI "void \fBattraction\fP ()"
+.br
+.ti -1c
+.RI "void \fBrepulsion\fP ()"
+.br
+.ti -1c
+.RI "void \fBupdate_vel\fP ()"
+.br
+.ti -1c
+.RI "void \fBupdate_pos\fP ()"
+.br
+.ti -1c
+.RI "void \fBupdate\fP ()"
+.br
+.ti -1c
+.RI "void \fBidle_fn\fP ()"
+.br
+.ti -1c
+.RI "void \fBinit\fP (void)"
+.br
+.ti -1c
+.RI "void \fBdisplay\fP (void)"
+.br
+.ti -1c
+.RI "void \fBanimation\fP (void)"
+.br
+.ti -1c
+.RI "void \fBreshape\fP (int x, int y)"
+.br
+.ti -1c
+.RI "void \fBSpecial_Keys\fP (int key, int x, int y)"
+.br
+.ti -1c
+.RI "int \fBmain\fP (int argc, char **argv)"
+.br
+.in -1c
+.SS "Variables"
+
+.in +1c
+.ti -1c
+.RI "GLfloat \fBxRotated\fP"
+.br
+.ti -1c
+.RI "GLfloat \fByRotated\fP"
+.br
+.ti -1c
+.RI "GLfloat \fBzRotated\fP"
+.br
+.ti -1c
+.RI "float \fBsize\fP = 0\&.02f"
+.br
+.ti -1c
+.RI "float \fBlimit\fP = 1\&.0f"
+.br
+.ti -1c
+.RI "map< int, map< string, float > > \fBposition\fP"
+.br
+.ti -1c
+.RI "map< int, float > \fBvel1\fP"
+.br
+.ti -1c
+.RI "map< int, float > \fBvel2\fP"
+.br
+.ti -1c
+.RI "map< int, float > \fBvel3\fP"
+.br
+.ti -1c
+.RI "float \fBaxis_size\fP = 2\&.0f"
+.br
+.ti -1c
+.RI "float \fBrel_dist\fP = 0\&.1f"
+.br
+.ti -1c
+.RI "float \fBsumx\fP =0\&.0"
+.br
+.ti -1c
+.RI "float \fBsumy\fP =0\&.0"
+.br
+.ti -1c
+.RI "float \fBsumz\fP =0\&.0"
+.br
+.ti -1c
+.RI "float \fBsumv1\fP =0\&.0"
+.br
+.ti -1c
+.RI "float \fBsumv2\fP =0\&.0"
+.br
+.ti -1c
+.RI "float \fBsumv3\fP =0\&.0"
+.br
+.ti -1c
+.RI "float \fBsuma1\fP =0\&.0"
+.br
+.ti -1c
+.RI "float \fBsuma2\fP =0\&.0"
+.br
+.ti -1c
+.RI "float \fBsuma3\fP =0\&.0"
+.br
+.ti -1c
+.RI "float \fBforce\fP =0\&.0"
+.br
+.ti -1c
+.RI "float \fBrad\fP =3\&.0f"
+.br
+.ti -1c
+.RI "float \fBvr\fP = 1\&.0"
+.br
+.ti -1c
+.RI "float \fBenergy\fP = 0\&.0f"
+.br
+.ti -1c
+.RI "int \fBn\fP = 0"
+.br
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "void add_bird ()"
+
+.SS "void animation (void)"
+
+.SS "void attraction ()"
+
+.SS "void boundary ()"
+
+.SS "void display (void)"
+
+.SS "void idle_fn ()"
+
+.SS "void init (void)"
+
+.SS "int main (int argc, char ** argv)"
+
+.SS "void print (int x, int y, int z, char * string)"
+
+.SS "void repulsion ()"
+
+.SS "void reshape (int x, int y)"
+
+.SS "void Special_Keys (int key, int x, int y)"
+
+.SS "void update ()"
+
+.SS "void update_pos ()"
+
+.SS "void update_vel ()"
+
+.SS "void wait (float seconds)"
+
+.SH "Variable Documentation"
+.PP 
+.SS "float axis_size = 2\&.0f"
+
+.SS "float energy = 0\&.0f"
+
+.SS "float force =0\&.0"
+
+.SS "float limit = 1\&.0f"
+
+.SS "int n = 0"
+
+.SS "map<int, map<string,float> > position"
+
+.SS "float rad =3\&.0f"
+
+.SS "float rel_dist = 0\&.1f"
+
+.SS "float size = 0\&.02f"
+
+.SS "float suma1 =0\&.0"
+
+.SS "float suma2 =0\&.0"
+
+.SS "float suma3 =0\&.0"
+
+.SS "float sumv1 =0\&.0"
+
+.SS "float sumv2 =0\&.0"
+
+.SS "float sumv3 =0\&.0"
+
+.SS "float sumx =0\&.0"
+
+.SS "float sumy =0\&.0"
+
+.SS "float sumz =0\&.0"
+
+.SS "map<int,float> vel1"
+
+.SS "map<int,float> vel2"
+
+.SS "map<int,float> vel3"
+
+.SS "float vr = 1\&.0"
+
+.SS "GLfloat xRotated"
+
+.SS "GLfloat yRotated"
+
+.SS "GLfloat zRotated"
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Starling_Simulation from the source code\&.
